@@ -1,0 +1,16 @@
+{
+  "name": "stimulus-js",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "16.x",
+    "yarn": "1.22.x"
+  },
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=public/bundle.js"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.0.1",
+    "esbuild": "^0.14.10"
+  }
+}
