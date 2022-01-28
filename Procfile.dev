@@ -1,2 +1,2 @@
-js: yarn build --watch
+js: npm run build
 serve: npx watch-http-server ./public
