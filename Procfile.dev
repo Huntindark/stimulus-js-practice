@@ -1,2 +1,2 @@
-js: npm run build
+js: npm run watch
 serve: npx watch-http-server ./public

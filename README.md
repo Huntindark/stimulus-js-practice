@@ -3,7 +3,7 @@
 ## Empezando:
 
 ```
-yarn install
+npm ci
 gem install foreman
 foreman start -f Procfile.dev
 ```
