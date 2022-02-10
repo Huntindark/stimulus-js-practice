@@ -20,3 +20,18 @@ foreman start -f Procfile.dev
   - Usar [Clipboard API](https://developer.mozilla.org/es/docs/Web/API/Clipboard_API)
 
 3. Dibujar un grafico con [ChartJS](https://www.chartjs.org/)
+
+nav.pagy-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav.pagy-nav span {
+  padding: 0.75rem 1rem;
+}
+
+  nav.pagy-nav span.active {
+  background-color: gray;
+  color: white;
+}
